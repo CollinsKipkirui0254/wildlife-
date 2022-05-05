@@ -1,0 +1,92 @@
+
+.topnav{
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a{
+    text-decoration: none;
+    padding: 15px 15px;
+    display: block;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.topnav a:hover {
+    background-color: goldenrod;
+    color: white;
+}
+.landing{
+    background-image: url("../images/keedron_bryant.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+
+}
+.landtext{
+    text-align: right;
+    color: darkgoldenrod;
+    font-size: 30px;
+    top: 50%;
+    left:50%;
+    position: absolute;
+
+
+}
+.landbtn {
+    padding: 12px 12px;
+    background-color: darkolivegreen;
+    border-radius: 8px;
+    width: 40%;
+    border: none;
+}
+.separate{
+    margin-top: 5px;
+
+}
+.landbtn:hover{
+    background-color: gold;
+    color: black;
+}
+
+.tablestyle{
+    width: 80%;
+    border: 1px mediumblue solid;
+    background-color: lightgoldenrodyellow;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tablestyle th,td {
+    border: 1px black solid;
+    padding: 14px 14px;
+    text-align: center;
+}
+form{
+    margin: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.contactinput{
+    width: 50%;
+    padding: 12px 2px;
+    box-sizing: border-box;
+    margin: 5px;
+    border:1px lightslategrey solid;
+}
+p{
+    text-align: left;
+    font-size: 25px;
+    border: 2px black solid;
+    background-clip: border-box;
+    outline-style: solid;
+    background-image: url("../images/home.avif");
+    color: white;
+
+
+}

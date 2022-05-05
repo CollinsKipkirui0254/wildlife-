@@ -1,0 +1,108 @@
+
+.topnav{
+    background-color: darkolivegreen;
+    overflow: hidden;
+}
+
+.topnav a{
+    text-decoration: none;
+    padding: 14px 14px;
+    display: block;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.topnav a:hover {
+    background-color: blue;
+    color: black;
+}
+.landing{
+    background-image: url("../images/wallpaper2you_421944.jpg");
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+
+
+}
+.landtext{
+    text-align: center;
+    color: goldenrod;
+    font-size: 30px;
+
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.landbtn {
+    padding: 12px 12px;
+    background-color: darkolivegreen;
+    bodrer-radius: 8px;
+    width: 40%;
+    border: none;
+}
+.separate{
+    margin-top: 5px;
+
+}
+.landbtn:hover{
+    background-color: gold;
+    color: black;
+}
+
+.tablestyle{
+    width: 100%;
+    border: 1px darkolivegreen solid;
+    background-color: darkolivegreen;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tablestyle th,td{
+    border: 1px black solid;
+    padding: 14px 14px;
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    margin-top: 10px;
+}
+.flexbox div{
+    margin: 10px;
+    padding: 10px;
+}
+.flexbox p{
+    border: 1px black solid;
+    text-align: center;
+}
+.flexbox h3{
+    text-align: center;
+    font-family:"Impact";
+}
+.formstyle{
+    border: 3px black solid;
+    padding: 20px;
+    margin: 20px;
+    background-color: darkolivegreen;
+}
+ .formstyle input,textarea{
+     width: 50%;
+     padding: 12px 12px;
+     margin: 8px 0;
+     display: inline-block;
+     border-radius: 4px;
+     border: 1px black solid;
+
+
+ }
+ .pagestyle {
+     border: 2px black solid;
+     margin: auto;
+ }
+ .pagestyle p{
+     padding: 10px;
+     font-family: "Arial Black";
+     font-size: large;
+ }
